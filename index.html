@@ -34,6 +34,11 @@
 
 <script>
     let synth = window.speechSynthesis
+
+    window.addEventListener("load", (event) => {
+        speak('Welkom bij Iphone of wafel')
+    });
+
     // Create a variable containing the result container
     const element = document.getElementById("imageResult");
 

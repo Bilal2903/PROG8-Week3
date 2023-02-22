@@ -85,8 +85,3 @@ function speak(text) {
 }
 
 speak("Hello world")
-
-// // Get a prediction for that image
-// classifier.classify(document.getElementById('dogB'), (err, result) => {
-//   console.log(result); // Should output 'dog'
-// });
